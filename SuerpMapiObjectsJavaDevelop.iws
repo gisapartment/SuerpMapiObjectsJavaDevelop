@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fc356bd-3a99-4d60-b312-b6467c67d13f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Develop/Develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/core/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/core/IFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionOpenFileWorkspace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/DevelopProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FormContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FunctionsComponentsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/GridBagConstraintsEasy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/LayersComponentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/WorkspaceComponentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/AbstractForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/IForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/IFormFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/utilities/StringUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/utilities/WorkEnvironmentUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/resources/Develop.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/resources/Develop_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkEnvironment/Develop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1109022074">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="config" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="iws" value="1" />
+          <entry key="java" value="134" />
+          <entry key="properties" value="6" />
+          <entry key="xml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="IDEA_WORKSPACE" value="1" />
+          <entry key="JAVA" value="134" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ft" value="58" />
+          <entry key="java" value="3354" />
+          <entry key="properties" value="163" />
+          <entry key="xml" value="201" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3354" />
+          <entry key="Properties" value="163" />
+          <entry key="VTL" value="58" />
+          <entry key="XML" value="201" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>functionsComponentsManager</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cRk3fc5dXozrRuy5NUuPBEfoGu" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Ant</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>FlexUnit</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JBoss Seam</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Method signatureScala</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Play</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="FunctionsComponentsManager&#9;FILE&#9;file://E:/Code/Java/GIS/SuerpMapiObjectsJavaDevelop/Develop/src/main/java/com/sircourse/gisdevelop/ui/frame/FunctionsComponentsManager.java&#10;windowli&#9;PSI&#9;JAVA://java.awt.event.WindowListener&#10;ComponentAdapter&#9;PSI&#9;JAVA://java.awt.event.ComponentAdapter&#10;workspacetr&#9;PSI&#9;JAVA://com.supermap.ui.WorkspaceTree" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590497546236" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bundles" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15773809" />
+    <property name="project.structure.side.proportion" value="0.22174658" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="Application" factoryName="Application">
+      <envs>
+        <env name="path" value="Bin" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.gisapartment.gisdevelop.Startup" />
+      <module name="Develop" />
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="path" value="Bin" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.sircourse.gisdevelop.Startup" />
+      <module name="Develop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sircourse.gisdevelop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fc356bd-3a99-4d60-b312-b6467c67d13f" name="Default Changelist" comment="" />
+      <created>1586007530709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586007530709</updated>
+      <workItem from="1586007532073" duration="3635000" />
+      <workItem from="1586053765146" duration="43000" />
+      <workItem from="1586053846655" duration="1924000" />
+      <workItem from="1586056158043" duration="5132000" />
+      <workItem from="1586089495439" duration="53000" />
+      <workItem from="1586091012581" duration="3873000" />
+      <workItem from="1586268416442" duration="1517000" />
+      <workItem from="1587392393063" duration="1519000" />
+      <workItem from="1587565247179" duration="1016000" />
+      <workItem from="1588672543542" duration="8515000" />
+      <workItem from="1588765273919" duration="6746000" />
+      <workItem from="1588863465463" duration="847000" />
+      <workItem from="1589369493589" duration="1042000" />
+      <workItem from="1589370627177" duration="12519000" />
+      <workItem from="1589726755292" duration="15000" />
+      <workItem from="1590497255026" duration="293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48689000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="262" key="#Configure_Path_Variables" timestamp="1590498609364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="262" key="#Configure_Path_Variables/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1590498609364" />
+    <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597331193141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331193141" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594213459058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594213459058" />
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978823" />
+    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.1.bottom" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.1.center" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.1.left" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state width="1493" height="197" key="GridCell.Tab.1.right" timestamp="1594306668847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1037" height="538" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
+    <state width="1493" height="197" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
+    <state width="1493" height="197" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1590498621355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1590498621355" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1594213549503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594213549503" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1594212595475" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594212586672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1590501139154" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594212586672" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="nodeList.getLength()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>nodeList.getLength()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node.getNodeName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>childNodes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>childNodes.getLength()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>attributes.getNamedItem(WorkEnvironmentUtilities.TAG_VISIBLE)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(&quot;&quot;).getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(&quot;.&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rootFile.getAbsolutePath() + &quot;/&quot; + &quot;WorkEnvironment&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rootFile.getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>

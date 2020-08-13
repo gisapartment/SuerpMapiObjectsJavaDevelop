@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <button label="打开工作空间" visible="true" tip="打开文件型工作空间。" function="com.gisapartment.gisdevelop.functions.FunctionOpenFileWorkspace"/>
+</root>
