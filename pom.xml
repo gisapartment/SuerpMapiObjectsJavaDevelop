@@ -6,6 +6,7 @@
     <groupId>com.gisapartment</groupId>
     <artifactId>SuerpMapiObjectsJavaDevelop</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>Develop</module>

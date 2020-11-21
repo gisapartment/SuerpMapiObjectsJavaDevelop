@@ -5,38 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc356bd-3a99-4d60-b312-b6467c67d13f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Develop/Develop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/Startup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/core/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/core/IFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionOpenFileWorkspace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/DevelopProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FormContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FunctionsComponentsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/GridBagConstraintsEasy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/LayersComponentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/WorkspaceComponentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/AbstractForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/FormType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/IForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/form/IFormFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/utilities/StringUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/utilities/WorkEnvironmentUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/resources/Develop.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/resources/Develop_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkEnvironment/Develop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/Develop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/Develop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FunctionsComponentsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FunctionsComponentsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,179 +109,8 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cRk3fc5dXozrRuy5NUuPBEfoGu" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Ant</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>ECMAScript 6 migration aidsJavaScript</id>
-          </State>
-          <State>
-            <id>FlexUnit</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>GeneralScala</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Hibernate</id>
-          </State>
-          <State>
-            <id>InternationalizationJava</id>
-          </State>
-          <State>
-            <id>Invalid elementsCSS</id>
-          </State>
-          <State>
-            <id>JBoss Seam</id>
-          </State>
-          <State>
-            <id>JPA</id>
-          </State>
-          <State>
-            <id>JSP</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java EE</id>
-          </State>
-          <State>
-            <id>Java interop issuesKotlin</id>
-          </State>
-          <State>
-            <id>JavaBeans issuesJava</id>
-          </State>
-          <State>
-            <id>JavaFX</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Method signatureScala</id>
-          </State>
-          <State>
-            <id>Naming conventionsKotlin</id>
-          </State>
-          <State>
-            <id>Other problemsKotlin</id>
-          </State>
-          <State>
-            <id>PerformanceJava</id>
-          </State>
-          <State>
-            <id>PerformanceLintAndroid</id>
-          </State>
-          <State>
-            <id>Play</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsCSS</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsKotlin</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>Properties FilesJava</id>
-          </State>
-          <State>
-            <id>RESTful Web Service</id>
-          </State>
-          <State>
-            <id>Redundant constructsKotlin</id>
-          </State>
-          <State>
-            <id>Scala</id>
-          </State>
-          <State>
-            <id>SecurityJava</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring BootSpring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Style issuesKotlin</id>
-          </State>
-          <State>
-            <id>StyleGroovy</id>
-          </State>
-          <State>
-            <id>TypeScript</id>
-          </State>
-          <State>
-            <id>UI Form</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -323,13 +126,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590497546236" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bundles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15773809" />
     <property name="project.structure.side.proportion" value="0.22174658" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -424,6 +227,14 @@
       <workItem from="1589726755292" duration="15000" />
       <workItem from="1590497255026" duration="293000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1597331261457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597331261457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -432,81 +243,81 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="553" y="262" key="#Configure_Path_Variables" timestamp="1590498609364">
+    <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597331215352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="553" y="262" key="#Configure_Path_Variables/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1590498609364" />
-    <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597331193141">
+    <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331215352" />
+    <state x="303" y="76" key="CommitChangelistDialog2" timestamp="1597331258057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331193141" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594213459058">
+    <state x="303" y="76" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331258057" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1597331239459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594213459058" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1594306668847">
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331239459" />
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1605930889505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1605930889504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889504" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1605930889504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978823" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889504" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1605930889504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.1.bottom" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889504" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1605930889505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.1.center" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1605930889505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.1.left" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1605930889505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state width="1493" height="197" key="GridCell.Tab.1.right" timestamp="1594306668847">
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1605930889505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1037" height="538" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1590594978824" />
-    <state width="1493" height="197" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594306668847" />
-    <state width="1493" height="197" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594212437041" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1590498621355">
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1605929217043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1590498621355" />
-    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1594213549503">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605929217043" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597331272945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1594213549503" />
-    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1594212595475" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594212586672">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331272945" />
+    <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597331266529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1590501139154" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594212586672" />
+    <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331266529" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

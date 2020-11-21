@@ -9,13 +9,12 @@ import org.w3c.dom.*;
 import javax.swing.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.text.MessageFormat;
 import java.util.HashMap;
+import java.util.Objects;
 
 /**
  * @author GIS公寓
@@ -23,7 +22,7 @@ import java.util.HashMap;
  */
 public class FunctionsComponentsManager extends JToolBar {
 
-	private static final HashMap<String, Function> FUNCTIONS = new HashMap<String, Function>();
+	private static final HashMap<String, Function> FUNCTIONS = new HashMap<>();
 
 	public FunctionsComponentsManager() {
 		initComponentsStatus();
@@ -37,9 +36,9 @@ public class FunctionsComponentsManager extends JToolBar {
 		JMenuBar menuBar = new JMenuBar();
 		File rootFile = new File("");
 		File workEnvironment = new File(rootFile.getAbsolutePath() + "/" + "WorkEnvironment");
-		for (File file : workEnvironment.listFiles()) {
+		for (File file : Objects.requireNonNull(workEnvironment.listFiles())) {
 			Document document = getDocument(file.getPath());
-			Element documentElement = document.getDocumentElement();
+			Element documentElement = Objects.requireNonNull(document).getDocumentElement();
 			NodeList nodeList = documentElement.getChildNodes();
 			for (int i = 0; i < nodeList.getLength(); i++) {
 				Node node = nodeList.item(i);
@@ -70,7 +69,7 @@ public class FunctionsComponentsManager extends JToolBar {
 		Node visible = attributes.getNamedItem(WorkEnvironmentUtilities.TAG_VISIBLE);
 		if (visible == null || Boolean.parseBoolean(visible.getTextContent())) {
 			NodeList childNodes = node.getChildNodes();
-			JMenuItem parent = null;
+			JMenuItem parent;
 			if (childNodes.getLength() > 0) {
 				parent = new JMenu();
 				for (int i = 0; i < childNodes.getLength(); i++) {
@@ -104,27 +103,16 @@ public class FunctionsComponentsManager extends JToolBar {
 						function = (Function) declaredConstructor.newInstance(parent);
 						FUNCTIONS.put(functionNode.getTextContent(), function);
 					}
-				} catch (ClassNotFoundException e) {
-					e.printStackTrace();
-				} catch (NoSuchMethodException e) {
-					e.printStackTrace();
-				} catch (InstantiationException e) {
-					e.printStackTrace();
-				} catch (IllegalAccessException e) {
-					e.printStackTrace();
-				} catch (InvocationTargetException e) {
+				} catch (ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InstantiationException | InvocationTargetException e) {
 					e.printStackTrace();
 				}
 			}
 			final Function finalFunction = function;
-			parent.addActionListener(new ActionListener() {
-				@Override
-				public void actionPerformed(ActionEvent e) {
-					if (finalFunction == null) {
-						JOptionPane.showMessageDialog(Application.getApplication().getMainFrame(), MessageFormat.format(DevelopProperties.getProperty("String_FunctionNotFound"), functionNode.getTextContent()));
-					} else {
-						finalFunction.doRun();
-					}
+			parent.addActionListener(e -> {
+				if (finalFunction == null) {
+					JOptionPane.showMessageDialog(Application.getApplication().getMainFrame(), MessageFormat.format(DevelopProperties.getProperty("String_FunctionNotFound"), functionNode.getTextContent()));
+				} else {
+					finalFunction.doRun();
 				}
 			});
 			return parent;
