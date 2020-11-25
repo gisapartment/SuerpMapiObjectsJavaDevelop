@@ -4,11 +4,11 @@ import com.gisapartment.gisdevelop.Application;
 import com.gisapartment.gisdevelop.core.Function;
 import com.gisapartment.gisdevelop.ui.frame.DevelopProperties;
 import com.gisapartment.gisdevelop.ui.frame.MainFrame;
+import com.gisapartment.gisdevelop.utilities.WorkspaceUtilities;
 import com.supermap.data.Workspace;
 import com.supermap.data.WorkspaceConnectionInfo;
 
 import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 import java.text.MessageFormat;
 
@@ -16,11 +16,9 @@ import java.text.MessageFormat;
  * @author GIS公寓
  * Copyright © GIS公寓(www.gisapartment.com)
  */
-public class FunctionOpenFileWorkspace extends Function {
+public class FunctionWorkspaceOpenFile extends Function {
 
-	private static final FileNameExtensionFilter FILE_NAME_EXTENSION_FILTER = new FileNameExtensionFilter(DevelopProperties.getProperty("String_SuperMapFileWorkspaceType"), "smwu", "sxwu");
-
-	public FunctionOpenFileWorkspace(JComponent component) {
+	public FunctionWorkspaceOpenFile(JComponent component) {
 		super(component);
 	}
 
@@ -34,7 +32,7 @@ public class FunctionOpenFileWorkspace extends Function {
 		//下面这句是去掉显示所有文件这个过滤器。
 		jFileChooser.setAcceptAllFileFilterUsed(false);
 		//设置一个文件筛选器
-		jFileChooser.setFileFilter(FILE_NAME_EXTENSION_FILTER);
+		jFileChooser.setFileFilter(WorkspaceUtilities.FILE_NAME_EXTENSION_FILTER);
 
 		MainFrame mainFrame = Application.getApplication().getMainFrame();
 		int result = jFileChooser.showDialog(mainFrame, DevelopProperties.getProperty("String_OpenFile"));

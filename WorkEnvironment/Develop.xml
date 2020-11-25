@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-    <button label="打开工作空间" visible="true" tip="打开文件型工作空间。" function="com.gisapartment.gisdevelop.functions.FunctionOpenFileWorkspace"/>
+    <button label="工作空间" visible="true">
+        <button label="保存工作空间" visible="true" tip="保存工作空间。" function="com.gisapartment.gisdevelop.functions.FunctionWorkspaceSave"/>
+        <button label="打开工作空间" visible="true" tip="打开文件型工作空间。" function="com.gisapartment.gisdevelop.functions.FunctionWorkspaceOpenFile"/>
+        <button label="另存工作空间" visible="true" tip="另存文件型工作空间。" function="com.gisapartment.gisdevelop.functions.FunctionWorkspaceSaveAs"/>
+        <button label="关闭工作空间" visible="true" tip="关闭工作空间。" function="com.gisapartment.gisdevelop.functions.FunctionWorkspaceClose"/>
+    </button>
 </root>

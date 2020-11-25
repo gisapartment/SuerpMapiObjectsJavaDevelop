@@ -3,14 +3,34 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc356bd-3a99-4d60-b312-b6467c67d13f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Develop/Develop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/Develop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Develop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FunctionsComponentsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/ui/frame/FunctionsComponentsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.ipr" afterDir="false" />
+    <list default="true" id="4fc356bd-3a99-4d60-b312-b6467c67d13f" name="Default Changelist" comment=".gitignore过滤掉Develop模块的target文件夹">
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionWorkspaceClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionWorkspaceSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionWorkspaceSaveAs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/utilities/WorkspaceUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionOpenFileWorkspace.java" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/src/main/java/com/gisapartment/gisdevelop/functions/FunctionWorkspaceOpenFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/src/main/resources/Develop_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/src/main/resources/Develop_zh_CN.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SuerpMapiObjectsJavaDevelop.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkEnvironment/Develop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WorkEnvironment/Develop.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597331261457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="代码优化及pom提示错误处理">
+      <created>1605931207552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605931207552</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".gitignore过滤掉Develop模块的target文件夹">
+      <created>1605931292324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605931292324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -243,9 +277,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="代码优化及pom提示错误处理" />
+    <MESSAGE value=".gitignore过滤掉Develop模块的target文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore过滤掉Develop模块的target文件夹" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -254,70 +302,85 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331215352" />
-    <state x="303" y="76" key="CommitChangelistDialog2" timestamp="1597331258057">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1605937255451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605937255451" />
+    <state x="303" y="76" key="CommitChangelistDialog2" timestamp="1605942740310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="303" y="76" key="CommitChangelistDialog2/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605942740310" />
     <state x="303" y="76" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331258057" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1597331239459">
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1605942736224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605942736224" />
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331239459" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1605930889505">
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
     <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1605930889504">
+    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889504" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
     <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1605930889504">
+    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1605943918173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889504" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918173" />
     <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
     <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1605930889504">
+    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889504" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
     <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605928635741" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1605930889505">
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1605930889505">
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1605930889505">
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1605930889505">
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1605943918174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605930889505" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605943918174" />
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331537933" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1605929217043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605929217043" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597331272945">
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1605941330106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605941330106" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605942730856">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605942730856" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331272945" />
     <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597331266529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597331266529" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605938380313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1080.0.1080.1880@0.0.1536.824" timestamp="1605938380313" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
