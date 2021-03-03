@@ -4,6 +4,10 @@ import com.supermap.ui.WorkspaceTree;
 
 import javax.swing.*;
 
+/**
+ * @author GIS公寓
+ * Copyright © GIS公寓(www.gisapartment.com)
+ */
 public class WorkspaceComponentManager extends JScrollPane {
 
 	private WorkspaceTree workspaceTree;

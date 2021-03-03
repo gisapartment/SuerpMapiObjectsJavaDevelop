@@ -5,6 +5,10 @@ import com.gisapartment.gisdevelop.utilities.WorkspaceUtilities;
 
 import javax.swing.*;
 
+/**
+ * @author GIS公寓
+ * Copyright © GIS公寓(www.gisapartment.com)
+ */
 public class FunctionWorkspaceSaveAs extends Function {
 
 	public FunctionWorkspaceSaveAs(JComponent component) {

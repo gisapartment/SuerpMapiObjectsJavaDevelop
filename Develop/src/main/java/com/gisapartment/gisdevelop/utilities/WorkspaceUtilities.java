@@ -12,6 +12,10 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 import java.text.MessageFormat;
 
+/**
+ * @author GIS公寓
+ * Copyright © GIS公寓(www.gisapartment.com)
+ */
 public class WorkspaceUtilities {
 
 	public static final FileNameExtensionFilter FILE_NAME_EXTENSION_FILTER = new FileNameExtensionFilter(DevelopProperties.getProperty("String_SuperMapFileWorkspaceType"), "smwu", "sxwu");

@@ -8,6 +8,10 @@ import com.supermap.data.WorkspaceType;
 
 import javax.swing.*;
 
+/**
+ * @author GIS公寓
+ * Copyright © GIS公寓(www.gisapartment.com)
+ */
 public class FunctionWorkspaceSave extends Function {
 
 	public FunctionWorkspaceSave(JComponent component) {

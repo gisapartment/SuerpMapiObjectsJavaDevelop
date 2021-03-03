@@ -6,6 +6,10 @@ import com.supermap.data.Workspace;
 
 import javax.swing.*;
 
+/**
+ * @author GIS公寓
+ * Copyright © GIS公寓(www.gisapartment.com)
+ */
 public class FunctionWorkspaceClose extends Function {
 
 	public FunctionWorkspaceClose(JComponent component) {
